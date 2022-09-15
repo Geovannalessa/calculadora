@@ -1,5 +1,9 @@
-☐ Capture todos os botões da tela com o quarySelectorAll
-☐ Faça com que, quando um botão seja clicado, uma função "escreveNoDisplay" seja executada.
+☐ Capture todos os botões
+
+☐ Faça com que, quando o botão "=" seja clicado, a função calcular seja executada
+
+☐ Faça com que qualquer outro botão seja clicado, uma função "escreveNoDisplay" seja executada. 
+
 ☐ Crie a função "escreveNoDisplay". Essa função vai pegar o caractere do botão que foi clicado e adicioná-lo no campo display.
-☐ Faça com que, quando se clique no botão de igual, uma função "calcular" seja executada.
+
 ☐ Crie e função calcular. Ela deve "fazer a conta" que estiver no display e por o resultado da conta no display.

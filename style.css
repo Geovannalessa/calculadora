@@ -14,12 +14,67 @@ body {
     justify-content: center;
     align-items: center;
     height: 100%;
+    background-color: rgb(0, 0, 0);
 }
 
 #calculadora {
-    width: 480px;
-    padding: 5px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    width: 500px;
+    height: 500px;
+    padding: 0px 10px;
+    background:radial-gradient(rgba(90, 89, 154, 0.233), rgba(0, 0, 0, 0.811)) rgb(8, 8, 8);
+    border: ridge rgb(41, 43, 45) 7px;    
+}
+#display{
+    width: 100%;
+    height: 70px;
+    font-size: 30px;
+    border: 1px rgba(255, 255, 255, 0.309) solid;
+    background-color: rgba(58, 57, 57, 0.097);
+    color: aliceblue; 
+    padding-left: 10px;
+    margin-top: 5px;
+}
+section{
+    width: 100%;
+    display: flex;
+    margin-top: 16px;
+    justify-content: center;
+}
+#numeros{
+    width: 80%;
+    display:block;
+    align-items: center;
+}
+#numeros>button{
+    background-color: rgba(6, 6, 6, 0.31);
+    border:4px rgba(89, 89, 26, 0.349) double;
+    height: 70px;
+    width: 90px;
+    margin-top: 10px;
+    border-radius:10px ;
+    color: rgb(243, 243, 243);
 }
 
+#numeros>button:focus{
+    background-color: rgba(213, 218, 218, 0.119);
+    color: aliceblue;
+}
+#operacoes{
+    width: 20%;
+}
+#operacoes>button{
+    height: 50px;
+    width: 60px;
+    margin-bottom: 4px;
+    border-radius: 10px;
+    background-color: rgba(147, 147, 147, 0.011);
+    border:8px rgba(15, 15, 15, 0.374) double;
+    color: rgb(15, 143, 255);
+    text-align: center;
+}
+#operacoes>button:hover{
+    background-color: rgba(147, 147, 147, 0.08);
+}
+#numeros>button:hover{
+    background-color: rgba(21, 21, 21, 0.192);
+}
